@@ -2,3 +2,4 @@ streamlit
 pandas
 matplotlib==3.5.1
 seaborn==0.11.2
+pandas_gbq
