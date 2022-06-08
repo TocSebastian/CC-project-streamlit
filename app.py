@@ -101,7 +101,7 @@ graph_type = st.selectbox("Alege un tip de grafic",['LinePlot','BarPlot'])
 graph_type                                                                                   # alegem un tip de plot si il afisam
 execute_graph(graph_type)
 # -----------------------------------------------------------------------------------------------
-dist_type = st.selectbox('DistPlot',['year','nota','metascore'])
+dist_type = st.selectbox('DistPlot',['year','nota'])
 def distPlot():
     fig = plt.figure(figsize=(10,4))
     sns.distplot(df_final[dist_type])                                                        # afisam un Distribution Plot in functie de parametrul ales
